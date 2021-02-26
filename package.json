@@ -4,8 +4,7 @@
   "description": "This is a replication of the Spotify landing page.",
   "main": "\u001b[D\u001bcshtml)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,5 @@
   "homepage": "https://github.com/BrandonSaravia/Sotify-Landing-Page#readme",
   "dependencies": {},
   "devDependencies": {
-    "open": "^7.4.2"
   }
 }
