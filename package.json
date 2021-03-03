@@ -1,0 +1,24 @@
+{
+  "name": "sotify-landing-page",
+  "version": "1.0.0",
+  "description": "This is a replication of the Spotify landing page.",
+  "main": "\u001b[D\u001bcshtml)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonSaravia/Sotify-Landing-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonSaravia/Sotify-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/BrandonSaravia/Sotify-Landing-Page#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

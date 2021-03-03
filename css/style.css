@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative; }
+
+html {
+  font-family: 'Catamaran', sans-serif; }
+
+.u-padding-right-0 {
+  padding-right: 0 !important; }
+
+.logo {
+  height: 40px;
+  cursor: pointer; }
+
+.header {
+  height: 100vh; }
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between; }
+  .navbar__container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    height: inherit; }
+  .navbar__sub-container {
+    display: flex;
+    flex-flow: row nowrap; }
+  .navbar__list {
+    display: flex;
+    flex-flow: row nowrap; }
+    .navbar__list-divider {
+      height: 16px;
+      width: 1px;
+      background: #fff;
+      margin: auto 17px; }
+  .navbar__link {
+    color: #fff;
+    padding: 34px 18px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.2px; }
+    .navbar__link:hover {
+      color: #1ed760; }
