@@ -1,0 +1,50 @@
+.navbar {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__container {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1170px;
+        padding: 0 15px;
+        height: inherit;
+    }
+
+    &__sub-container {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    &__list {
+        display: flex;
+        flex-flow: row nowrap;
+
+        &-divider {
+            height: 16px;
+            width: 1px;
+            background: $color-white;
+            margin: auto 17px;
+        }
+    }
+
+    &__link {
+        color: $color-white;
+        padding: 34px 18px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        letter-spacing: 0.2px;
+
+        &:hover {
+            color: #1ed760;
+        }
+    }
+}
