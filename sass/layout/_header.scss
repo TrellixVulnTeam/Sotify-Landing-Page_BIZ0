@@ -1,4 +1,25 @@
 .header {
     height: 100vh;
-    
+    position: relative;
+    background-color: $color-blue;
+
+    &__container {
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    // &__background-img {
+    //     position: absolute;
+
+    //     &--1 {
+    //         bottom: 0;
+    //     }
+    //     &--2 {
+    //         top: 80px;
+    //         right: 0;
+    //     }
+    // }
 }

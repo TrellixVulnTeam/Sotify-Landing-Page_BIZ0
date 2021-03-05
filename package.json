@@ -5,6 +5,7 @@
   "main": "\u001b[D\u001bcshtml)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=3000",
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/BrandonSaravia/Sotify-Landing-Page#readme",
   "dependencies": {},
   "devDependencies": {
+    "live-server": "^1.2.1",
     "node-sass": "^5.0.0"
   }
 }

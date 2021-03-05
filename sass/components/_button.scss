@@ -1,0 +1,33 @@
+.btn{
+
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    &__expand {
+        padding: 15px 28px 14px 28px;
+        border-radius: 500px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+
+        &:hover {
+            transform: scale(1.04);
+            background-color: rgb(45, 226, 109);
+        }
+
+        &:active {
+            transform: scale(1);
+        }
+
+        &--green {
+            background-color: #1ed760;
+            color: #2941ab;
+        }
+    }
+}

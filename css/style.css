@@ -64,15 +64,60 @@ body {
 html {
   font-family: 'Catamaran', sans-serif; }
 
+.heading-primary--main {
+  font-size: 15.6rem;
+  font-weight: 800;
+  text-indent: -27rem;
+  transform: translateX(125px);
+  color: #1ed760; }
+
+.heading-primary--sub {
+  color: #1ed760;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600; }
+
 .u-padding-right-0 {
   padding-right: 0 !important; }
+
+.u-margin-bottom-4 {
+  margin-bottom: 4rem !important; }
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer; }
+
+.btn__expand {
+  padding: 15px 28px 14px 28px;
+  border-radius: 500px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center; }
+  .btn__expand:hover {
+    transform: scale(1.04);
+    background-color: #2de26d; }
+  .btn__expand:active {
+    transform: scale(1); }
+  .btn__expand--green {
+    background-color: #1ed760;
+    color: #2941ab; }
 
 .logo {
   height: 40px;
   cursor: pointer; }
 
 .header {
-  height: 100vh; }
+  height: 100vh;
+  position: relative;
+  background-color: #2941ab; }
+  .header__container {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center; }
 
 .navbar {
   height: 80px;
@@ -100,7 +145,8 @@ html {
       height: 16px;
       width: 1px;
       background: #fff;
-      margin: auto 17px; }
+      margin: auto 17px;
+      transform: translateY(-2px); }
   .navbar__link {
     color: #fff;
     padding: 34px 18px;
